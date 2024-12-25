@@ -1,0 +1,105 @@
+.linkedinContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .profileHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .profileImageContainer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+  }
+  
+  .profileImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profileDetails {
+    flex: 1;
+  }
+  
+  .profileName {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .profileHeadline {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .profileLocation {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .profileInfo {
+    margin-top: 15px;
+  }
+  
+  .companyName {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .profileLink {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .skeletonProfileImage,
+  .skeletonProfileName,
+  .skeletonProfileHeadline,
+  .skeletonProfileLocation,
+  .skeletonCompanyName,
+  .skeletonProfileLink {
+    margin-bottom: 10px;
+  }
+  
+  .skeletonProfileImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .skeletonProfileName {
+    width: 120px;
+    height: 18px;
+  }
+  
+  .skeletonProfileHeadline {
+    width: 150px;
+    height: 14px;
+  }
+  
+  .skeletonProfileLocation {
+    width: 100px;
+    height: 12px;
+  }
+  
+  .skeletonCompanyName {
+    width: 140px;
+    height: 14px;
+  }
+  
+  .skeletonProfileLink {
+    width: 180px;
+    height: 14px;
+  }
+  

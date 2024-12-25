@@ -1,0 +1,53 @@
+.sourceContainer {
+  margin-top: 36px;
+  position: relative;
+  z-index: 1;
+}
+.sourceTextRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.sourceImg {
+  width: 24px;
+  height: 24px;
+}
+.sourceText {
+  font-style: normal;
+  font-size: 21px;
+  line-height: 24px;
+  color: #e8e8e6;
+}
+.sourceRow {
+  overflow: hidden;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 8px;
+  scrollbar-width: none;
+}
+.sourceRow::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width: 512px) {
+  .sourceContainer {
+    margin-top: 24px;
+    width: 100%;
+  }
+  .sourceTextRow {
+    margin-left: 5%;
+  }
+  .sourceRow {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 24px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+}

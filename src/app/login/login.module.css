@@ -1,0 +1,241 @@
+/* Wrapper for the entire login page */
+.loginWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #4a148c, #9c1c9f);  /* Light background color for a clean look */
+}
+
+/* Container for both the login form and the carousel */
+.loginContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  max-width: 1200px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  height: 510px; /* You can adjust the height as per your design */
+}
+
+/* Left section: Login Card */
+.loginCard {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:480px;
+  height: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Logo Section */
+.logoSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+/* Logo Styling */
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Branding text (Company Name) */
+.branding {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 2px;
+}
+
+/* Input field wrapper */
+.inputField {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input label */
+.inputLabel {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Input field styling */
+.input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.input:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+/* Submit Button */
+.submitButton {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+  width: 100%;
+}
+
+.submitButton:hover {
+  background-color: #004494;
+}
+
+/* "OR" Divider */
+.authDivider {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 600;
+  color: #aaa;
+}
+
+/* Google authentication button */
+.googleAuth {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Google authentication button */
+.googleButton {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #ffffff; /* White background */
+  border: 2px solid #f5deb3; /* Light beige border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000 !important; /* Matching the theme for text color */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Hover effect for the button */
+.googleButton:hover {
+  background-color: #f5f5f5; /* Slightly darker background on hover */
+  border-color: #e8cfae; /* Darker beige border on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Google Icon Styling */
+.googleIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+
+/* Forgot Password Text */
+.forgotPassword {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.forgotPassword:hover {
+  color: #0056b3;
+}
+
+/* Register Link */
+.registerLink {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+}
+
+.registerLink a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.registerLink a:hover {
+  text-decoration: underline;
+}
+
+
+.carousel {
+  flex: 1;
+  max-width: 520px; /* Set the width of the carousel section */
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+}
+
+.imageWrapper {
+  display: flex;
+  transition: transform 1s ease-in-out; /* Smooth sliding transition */
+}
+
+.carouselImage {
+  width: 100%;
+  object-fit: cover;
+  height: 100%; /* Ensure the image takes full height of the carousel container */
+}
+/* Explicitly setting text colors to avoid global gray override */
+.loginCard {
+  color: #000000; /* Default text color to black */
+}
+
+.branding {
+  color: #f36f21; /* Brand-specific color */
+}
+
+.inputLabel {
+  color: #333333; /* Slightly lighter black for labels */
+}
+
+.forgotPassword,
+.registerLink a {
+  color: #555555; /* Neutral gray for secondary text */
+}
+
+.googleButton {
+  color: #ffffff; /* Ensure the button text is white */
+}
+
+.authDivider {
+  color: #666666; /* Subtle gray for dividers */
+}
+.tagline {
+  font-size: 3.5rem;
+  font-family: 'Poppins', sans-serif; /* Modern, clean font */
+  font-weight: 400; /* Bold for emphasis */
+  text-align: center;
+  background: linear-gradient(90deg, #4a148c, #9c1c9f, #f36f21); /* Gradient text */
+  -webkit-background-clip: text; /* Clips the background to text */
+  -webkit-text-fill-color: transparent; /* Makes text transparent to show gradient */
+  letter-spacing: .5px; /* Slightly increased spacing for elegance */
+}
+.subtag{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}

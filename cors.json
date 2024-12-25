@@ -1,0 +1,10 @@
+gs://omniplex-b2b7e.firebasestorage.app/ has no CORS configuration.
+[
+    {
+      "origin": ["http://localhost:3000"],
+      "method": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+      "responseHeader": ["Content-Type"],
+      "maxAgeSeconds": 3600
+    }
+  ]
+  
