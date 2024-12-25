@@ -59,30 +59,62 @@ yarn dev
 
 > We recently transitioned from the pages directory to the app directory, which involved significant changes to the project structure and architecture. As a result, you may encounter some inconsistencies or rough edges in the codebase.
 
-### MY APPROACH
+# 🛠 My Approach
 
-# Objective 1
-UI Enhancement:
+## Objective 1: UI Enhancement
 
-1. First of all understood what is structure of the given app and then located all the essential file .
-2. Filled all the api keys.
-3. Changed all the points where login button is located like sidebar component and chat history parts to /login page.
-4. Created a login folder.
-5. Created a Page.tsx file that is same as [https://claude.ai/login?returnTo=%2F%3F]
-6. Added the module.css for the same.
-7. At last verified the functioning of website.
+1.Reviewed the app's structure and located essential files.
 
-# Objective 2
-API Integration:
-1. Started searching for an helpful api .
-2. Used an api [https://rapidapi.com/mgujjargamingm/api/linkedin-data-scraper/playground/apiendpoint_dfa1c9e8-ced7-4832-ba5f-97272c5ea25b]
-3. The above api is ued for email to linkedin profile.
-4. Followed all step given in projects.
-5. updated the necessary file.
-6. make a plugin folder
-7. made a page to display the /plugins/linkedin page.
-8. filled the api key field in .env.
 
+2.Filled all API keys.
+
+
+3.Updated all login button routes (e.g., sidebar and chat history) to /login.
+
+
+4.Created a login folder.
+
+
+5.Developed a Page.tsx file similar to https://claude.ai/login.
+
+
+6.Styled the login page with module.css.
+
+
+7.Verified the website's functionality.
+
+## Objective 2: API Integration
+
+1. Researched useful APIs.
+
+
+2.Integrated the LinkedIn Data Scraper API.
+
+
+3.Utilized the API to fetch LinkedIn profiles from email addresses.
+
+
+4.Created a plugin folder and implemented a page to display /plugins/linkedin.
+
+
+5.Updated necessary files and populated API keys in .env.
+
+
+## Objective 3: Deployment
+
+
+1.Deployed the website using Vercel (familiar from previous projects).
+
+
+2.Live at: https://omniplex-main.vercel.app/
+
+## Objective 4: Beautification
+
+
+1.Enhanced the login page with help from ChatGPT and Next.js 13 documentation.
+
+
+2.Improved the app’s appearance using TailwindCSS and NextUI.
 
 
 ### App Architecture
@@ -109,11 +141,11 @@ API Integration:
 
 
 
-## License
+## 📜License
 
 This project is licensed under the [AGPL-3.0 license](LICENSE).
 
-## Contact
+## 📞 Contact
 
 If you have any questions or suggestions, feel free to reach out to me at [sajalkumarbaranwal13@gmail.com].
 
